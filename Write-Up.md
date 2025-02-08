@@ -6,7 +6,7 @@ In this lab, I coded in JavaScript, making a base script that could display my w
 
 ![Basic Contructor](/Constructor.png "Constructor")
 
-This first set of code comes from the JavaScript Constructor.  First things first, the class "Task" was made in order to properly set up the design.  From there, the data needed to be formatted correctly, so the toHTML function comes into play.  It first reformats the data into variable that we use in the rest of the lab, then from there has a "<li>" piece of data that formats how they are displayed on the screen.
+This first set of code comes from the JavaScript Constructor.  First things first, the class "Task" was made in order to properly set up the design.  From there, the data needed to be formatted correctly, so the toHTML function comes into play.  It first reformats the data into variable that we use in the rest of the lab, then from there has a "< li >" piece of data that formats how they are displayed on the screen.
 
 ![Function CreateTask](/CreateTask.png "CreateTask")
 
