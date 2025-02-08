@@ -6,60 +6,68 @@ In this lab, I coded in JavaScript, making a base script that could display my w
 
 ![Basic Contructor](/Constructor.png "Constructor")
 
-This is one of three files that I used to code out this website. With the inclusion of this CSS file, I also used an HTML file and a JS (Javascript) file in order to proplery order and serve this website.  Within the Javascript file was some very base level code that allowed for the website to be recognized and propely set as a website.  In the HTML file, the coding language of HTML was used in order to set up the base look and structure of the website.  The CSS file used here was actually only used to stylize what the website would look like.
+This first set of code comes from the JavaScript Constructor.  First things first, the class "Task" was made in order to properly set up the design.  From there, the data needed to be formatted correctly, so the toHTML function comes into play.  It first reformats the data into variable that we use in the rest of the lab, then from there has a "<li>" piece of data that formats how they are displayed on the screen.
 
-![This is my Website.](/website_writeup.png "Website")
+![Function CreateTask](/CreateTask.png "CreateTask")
 
-On this screenshot, it is seen that the website is up and running, and it is visually different from the base level website we initally started with.  At the beginning, there was a very blank page with black and white text and boxes, and now it can be seen that it has been changed to a nice aquamarine color palet.  Along with that, the CSS and HTML combine nicely to create working check-off buttons and sort buttons.  With this, there is also a section to 'Create Task', which prompts the user to insert a task and give it a due date as well.
+This photo now shows the functions I created in order to properly add and store new files.  The code begins by pasring the data, then runs it through the ringer of formatting in order to be of the same data of the other tasks, in other words, it needs to conform to the same guidelines.  From there, it runs through the function "readTasks" which reads through the array and assigns the new task a value in that map.  From there, the data is updated in the storage.  Then the tasks are displayed with the new addition.
 
-## Questions 1a
+![Function DeleteTask](/DeleteTask.png "DeleteTask")
 
-What is the purpose of using Docker containers?
+These final functions show how we can remove tasks from the page.  It is quite simple, all that is done is a simple read from the console to find the task that was selected.  From there, that information is passed to the filter which finds the task and removes it.  It then is removed from the storage and the tasks are displayed once again.  A basic UML diagram of all this information is provided here:
 
-The purpose of using Docker containers is to be able to run a program in an isolated environment, in this case, to run a webiste on a local environment.
+![UML Diagram](/UML_Diagram.png "UML")
 
-Why is it useful to have both a development environment and a live server environment?
+## Questions 2a
 
-One of the biggest reasons it is great to have both environments is basic debugging.  If something shows up in the live server then it can be changed and modified on the local, then ported over to the live server to see if the changes actually fixed the problem.
+What are two differences and similarities between JavaScript and a previous language you have used (e.g. C++ or Python)? (Think of differences and similarities that are more unique to these 2 languages, not all languages in general.)
 
-What is the purpose of using a code versioning tool (i.e. Git)?
+a
 
-One of the biggest reasons for code versioning tools is to track version hisotry and changes.  Another big reason is to be able to work on the same files from different environments from different devices.
+What is the difference between JSON and JavaScript objects?
 
-## Questions 1b
+a
 
-What is the difference between a CSS rule with an element selector (i.e. h1,p,div etc.) and one with a class selector (i.e. .task, .task-done etc.)? 
+If you open your web page in two different browsers, will changes on one appear on the other? Why or why not?
 
-The CSS rules of element selector are built into HTML to structure the page and not necesarilly stylize the page, but using the class selectors CSS gives the user the ability to better stylize their page.
+If I open my webpage in two different browsers, the data will update correctly and that is because the array created is saved over the server and the domain, so when it the page is closed and reopened or updated on another tab all changes are synced.
 
-When would you use each?
+How long did you spend on this lab?
 
-We would use element selectors to structure a page and class selectors to modify multiple linked elements.
+I spent about 15 hours on this lab, including all debugging.
 
-What are the advantages of putting your styles in a separate .css stylesheet instead of in the style element of head?
+## Questions 2b
 
-The advantages of putting styles in .css is that it declutters the .html page, it allows for more style freedoms, and it also gives more control to creating and managing variables.
+What is the difference between http and https?
 
-How do web browsers choose which CSS to use for an HTML element when the CSS rules contradict each other?
+HTTPS is different than HTTP because it means that it is secure and has a certificate that encrypts the information and protects the user.
 
-When the CSS rules contradict, the web browsers use a set of rules that determines which rules to apply.
+What does the A record do in your DNS domain?
 
-What is the order of precedence for CSS rules?
+a
 
-The order of CSS rules is: Importance, Specificity, Source, then Inheritance.
+Which key does the certbot tool send to Let's Encrypt to be embedded in the certificate; the public key or the private key?
 
-Why should you disable directory access for your server?
+a
 
-Disabling directory access is importnat to the sercer so that unauthorized individuals do not access the elements controlling the website and the content of the directories.
+What is the TTL setting in DNS, what are the units, and what does it do?
+
+a
+
+The DNS registrar tool is new this year. What did you like about it? What could we do to improve it? (Any answer gets full credit.)
+
+a
+
+How would you incorporate bash scripts in your future?
+
+a
 
 ## Skills Aquired
-- Basic coding in:
-    - HTML
-    - Javascript
-    - CSS
-- Modify a series of elements using CSS
-- Upload a website to a live server
-- Use basic coding knowledge to declutter and simplify files used to build a website
+- Advanced coding in:
+    - JavaScript
+- Modify a series of elements in HTML using JavaScript
+- Create a certificate to validate and encrypt information on a site
+- Debug code using containers and passes through the code
 
 ## Sources
 
