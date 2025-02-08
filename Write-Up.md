@@ -22,11 +22,11 @@ These final functions show how we can remove tasks from the page.  It is quite s
 
 What are two differences and similarities between JavaScript and a previous language you have used (e.g. C++ or Python)? (Think of differences and similarities that are more unique to these 2 languages, not all languages in general.)
 
-a
+Two differnces I noted between JavaScript and other coding languages is that the code is acctually pretty streamlined, often putting mulitple funtions into one condensed line of code unline C++ and python, which often require multpile lines to create a funtion.  The other was that JavaScript was pretty forgiving with formatting unlike C++ and Python.  Two similarities were that the codes funtions were very very similar to those of C++, in that they are formatted the same and call variables in a very similar way, and that functions are called in the same fashion as other codes.
 
 What is the difference between JSON and JavaScript objects?
 
-a
+Javascript objects are directly tied to JavaScript whereas JSON uses strings.
 
 If you open your web page in two different browsers, will changes on one appear on the other? Why or why not?
 
@@ -44,23 +44,23 @@ HTTPS is different than HTTP because it means that it is secure and has a certif
 
 What does the A record do in your DNS domain?
 
-a
+The A record maps a IPv4 address to my reserved domain name.
 
 Which key does the certbot tool send to Let's Encrypt to be embedded in the certificate; the public key or the private key?
 
-a
+The CertBot uses the public key.
 
 What is the TTL setting in DNS, what are the units, and what does it do?
 
-a
+The TTL setting in DNS is how long a packet can exist when passed between two devices, literally meaning Time To Live, before becoming obselete.  The units are seconds, and it makes it so that if a packet is passed but not received it goes away as to not hinder future traffic.
 
 The DNS registrar tool is new this year. What did you like about it? What could we do to improve it? (Any answer gets full credit.)
 
-a
+I really liked how easy it was to use, the instructions were not super clear on what to input beyond the original saved domain, but once figured it was seemlessly used.
 
 How would you incorporate bash scripts in your future?
 
-a
+I would incorporate bash scripts in the future to avoid having to set up a server by hand every time.
 
 ## Skills Aquired
 - Advanced coding in:
@@ -71,6 +71,6 @@ a
 
 ## Sources
 
-- [MarkDown Guide](https://markdownguide.offshoot.io/basic-syntax/)
-- [How to Use CSS](https://www.educba.com/css-strikethrough/#:~:text=To%20achieve%20CSS%20strikethrough%2C%20you,by%20the%20text%2Ddecoration%20property.)
-- [How to make tags in HTML](https://www.w3schools.com/tags/tag_form.asp#:~:text=The%20tag%20is%20used)
+- [HTML Lists](https://markdownguide.offshoot.io/basic-syntax/)
+- [Changing Arrays](https://www.geeksforgeeks.org/how-to-creating-html-list-from-javascript-array/)
+- [TLS Certificates](https://www.digicert.com/how-tls-ssl-certificates-work)
