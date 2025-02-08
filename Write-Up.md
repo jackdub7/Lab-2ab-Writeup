@@ -60,7 +60,7 @@ I really liked how easy it was to use, the instructions were not super clear on 
 
 How would you incorporate bash scripts in your future?
 
-I would incorporate bash scripts in the future to avoid having to set up a server by hand every time.
+I would incorporate bash scripts in the future to avoid having to set up a server by hand every time. This would be very handy.
 
 ## Skills Aquired
 - Advanced coding in:
