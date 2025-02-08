@@ -1,10 +1,10 @@
-# **Lab 1a and b, Tools, HTML, and CSS**
+# **Lab 2a and b, Javascript and Security**
 ## *Jackson Dubreuil*
-### *Friday 24th of January, 2025*
+### *Friday 7th of Febuary, 2025*
 
-In this lab, I have managed to complete code that was efficient enought to design a website, make it run, and apply it to a live server. The basic code runs through Javascript, a file that just makes the website exist. From there, there is an HTML file that sets up the basic website from there.  Finally, a bit of CSS code is used to style the website into something a little more asthetically pleasing.
+In this lab, I coded in JavaScript, making a base script that could display my web page correclty.  With that, it was also able to make the page interactable, allowing users to input new lines and delete lines on the page.  With this functionality, the page became viable.  As the last little bit, I also used CertBot to create a certificate to validate my page as HTTPS.
 
-![This is my CSS text.](/css_writeup.png "CSS")
+![Basic Contructor](/Constructor.png "Constructor")
 
 This is one of three files that I used to code out this website. With the inclusion of this CSS file, I also used an HTML file and a JS (Javascript) file in order to proplery order and serve this website.  Within the Javascript file was some very base level code that allowed for the website to be recognized and propely set as a website.  In the HTML file, the coding language of HTML was used in order to set up the base look and structure of the website.  The CSS file used here was actually only used to stylize what the website would look like.
 
